@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from "react";
 import Dashboard from "../components/Dashboard";
 import axiosConfig from "../util/axiosConfig";
@@ -253,4 +254,15 @@ const Expense = () => {
   );
 };
 
+=======
+import Dashboard from "../components/Dashboard";
+
+const Expense=()=>{
+    return (
+         <Dashboard activeMenu="Expense">
+                This is expense page
+         </Dashboard>
+    )
+}
+>>>>>>> 615710988a6ecef8bd4a45833db1a4f5089e5d3f
 export default Expense;

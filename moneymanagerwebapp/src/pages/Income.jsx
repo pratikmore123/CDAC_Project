@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from "react";
 import Dashboard from "../components/Dashboard";
 import axiosConfig from "../util/axiosConfig";
@@ -237,4 +238,15 @@ const Income = () => {
   );
 };
 
+=======
+import Dashboard from "../components/Dashboard";
+
+const Income=()=>{
+    return (
+         <Dashboard activeMenu="Income">
+                This is Income page
+            </Dashboard>
+    )
+}
+>>>>>>> 615710988a6ecef8bd4a45833db1a4f5089e5d3f
 export default Income;

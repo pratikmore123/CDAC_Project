@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from "react";
 import Dashboard from "../components/Dashboard";
 import axiosConfig from "../util/axiosConfig";
@@ -185,3 +186,15 @@ const FilterPage = () => {
 };
 
 export default FilterPage;
+=======
+import Dashboard from "../components/Dashboard";
+
+const Filter=()=>{
+    return (
+         <Dashboard activeMenu="Filters">
+                This is filter page
+            </Dashboard>
+    )
+}
+export default Filter;
+>>>>>>> 615710988a6ecef8bd4a45833db1a4f5089e5d3f

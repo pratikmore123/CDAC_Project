@@ -6,6 +6,10 @@
 @tailwind utilities;
 body {
   font-family: 'Outfit', sans-serif;
+<<<<<<< HEAD
   background-color: hsl(336, 61%, 92%);
+=======
+  background-color: #dcfbfc;
+>>>>>>> 615710988a6ecef8bd4a45833db1a4f5089e5d3f
   overflow-x: hidden;
 }

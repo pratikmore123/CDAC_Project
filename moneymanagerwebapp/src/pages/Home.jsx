@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from "react";
 import Dashboard from "../components/Dashboard";
 import axiosConfig from "../util/axiosConfig";
@@ -167,4 +168,19 @@ const Home = () => {
   );
 };
 
+=======
+import Dashboard from "../components/Dashboard";
+import { useUser } from "../hooks/useUser";
+
+const Home=()=>{
+    useUser();
+    return (
+        <div>
+            <Dashboard activeMenu="Dashboard">
+                This is home page
+            </Dashboard>
+        </div>
+    )
+}
+>>>>>>> 615710988a6ecef8bd4a45833db1a4f5089e5d3f
 export default Home;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Plus } from "lucide-react";
 import Dashboard from "../components/Dashboard";
 import CategoryList from "../components/CategoryList";
@@ -163,4 +164,15 @@ const Category = () => {
     );
 };
 
+=======
+import Dashboard from "../components/Dashboard";
+
+const Category=()=>{
+    return (
+         <Dashboard activeMenu="Category">
+                This is Category page
+            </Dashboard>
+    )
+}
+>>>>>>> 615710988a6ecef8bd4a45833db1a4f5089e5d3f
 export default Category;

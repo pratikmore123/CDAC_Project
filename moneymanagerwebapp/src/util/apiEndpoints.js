@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const BASE_URL = "http://localhost:8080/api/v1.0";
 
 export const API_ENDPOINTS = {
@@ -33,4 +34,13 @@ export const API_ENDPOINTS = {
     
     // Filters
     FILTER_TRANSACTIONS: "/transactions/filter"
+=======
+// src/util/apiEndpoints.js
+export const BASE_URL = "http://localhost:8080/api/v1.0";
+
+export const API_ENDPOINTS = {
+    LOGIN: "/login",
+    REGISTER: "/register",
+    GET_USER_INFO:"/profile",
+>>>>>>> 615710988a6ecef8bd4a45833db1a4f5089e5d3f
 };
